@@ -5,148 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <title>Document</title>
-    <link rel="stylesheet" href="Style.css">
 </head>
 
 <body>
-    <div class="container1" id="home">
-        <div class="navbar">
-            <a href="#home">
-                <h3>home</h3>
-            </a>
-            <a href="#about">
-                <h3>about</h3>
-            </a>
-            <a href="#contact">
-                <h3>contact</h3>
-            </a>
-        </div>
-        <div class="leftc1">
-            <div class="logo">
-                <div class="circle">
-                    <span class="initial">
-                        <h1>i</h1>
-                    </span>
-                </div>
-                <span class="nama-logo">
-                    <h1>html CSS project</h1>
-                </span>
-            </div>
-            <div class="content">
-                <h2> Hello My Name Is </h2>
-                <h1> Muhammad Ilham </h1>
-                <h3 ><a type="button" href="#popup">  I'M College Student at UNM </a></h3>
-                
-                <div id="popup">
-                    <div class="window">
-                        <a href="#" class="close-button" title="close">X</a>
-                        <h2>College Student Data</h2>
-                        <div class="teks-data">
-                        <p>Name : Muhammad Ilham </p>
-                        <p> NIM : 210210501019 </p>
-                        <p>Class : TEKOM A 2021 </p>
-                        <p>HOBy : - </p>
-                        <p>future goals : be the big boss</p>
-                        <!-- <img src="Foto1.jpg" alt=""> -->
-                        <div class="foto-data"></div>
-                </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="rightc1"></div>
+
+    <div class="container-tengah">
+        <!-- <img src="bg2.jpg" alt="" class="container-tengah"> -->
+        <h1 class="teks-awal">YO!!! WELCOME!!!</h1>
+        <p class="teks-sambutan">website ini dibuat sebagai bahan pembelajaran dari matakuliah pemrograman web yang  </p>
+        <p class="teks-sambutan">berisikan tentang data diri dari pembuat web. Web ini dibuat menggunakan html css </p>
+        <p class="teks-sambutan">dan javascript tema yang diangkat untuk web ini yaitu black gray. apabila web ini terlihat </p>
+        <p class="teks-sambutan"> suram harap dimaklumi karena itu mencerminkan kehidupan pembuat web.</p>
+        <div class="tombol1" ><a href="Formlogin.html">Sign in</a></div>
+        <div class="tombol2"><a href="signup.html" >Sign up </a></div>
     </div>
-
-    <div class="container2" id="about">
-        <div class="leftc2">
-            <pre>.................
-.................
-.................
-.................
-.................
-            </pre>
-            <div class="kotak1">
-                <div class="titik2">
-
-                    <div class="circle1"></div>
-                    <div class="circle2"></div>
-
-                </div>
-            </div>
-            <div class="kotak2"></div>
-        </div>
-        <div class="rightc2">
-            <div class="gambarc2">
-                <img src="./61.png" alt="" class="ilustrasi">
-                <img src="./61.png" alt="" class="ilustrasi">
-                <img src="./61.png" alt="" class="ilustrasi">
-                <img src="./61.png" alt="" class="ilustrasi">
-
-            </div>
-            <div class="teks2">
-                <h2>HELLO I AM</h2>
-                <h1>ILHAM</h1>
-            </div>
-            <div class="teks">
-                <p>Saat ini saya berstatus sebagai seorang Mahasiswa di Universitas Negeri Makassar, jurusan Teknik Informatika dan Komputer dari prodi teknik Komputer. 
-                    saya tidak memiliki hobi, 
-                    tidak menyukai banyak hal dan juga selalu menjalani hari hari dengan membosankan <br><br>
-                    Saat ini saya belum mempunyai skill yang bisa saya pamerkan,  cita cita saya mempunyai 
-                    banyak uang tanpa bekerja dan usaha yang saat ini saya usahakan yaitu latihan bangkit dari kasur saat mager magernya 
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="container3" id="contact">
-        <div class="infoc3">
-            <div class="email-info">
-                <a href="mailto:mi1035173@gmail.com" target="_blank"><img src="email.png" class="icon1"></a>
-                <a href="mailto:mi1035173@gmail.com">
-                    <h5>@myemail.com</h5>
-                </a>
-            </div>
-            <div class="whatsapp">
-                <a href="https://wa.me/6281341296486" target="blank"><img src="Wa.png" class="icon2"></a>
-                <a href="https://wa.me/6281341296486" target="_blank">
-                    <h5>Wa : +6281341296486</h5>
-                </a>
-            </div>
-            <div class="ig">
-                <a href="https://www.instagram.com/illhom.e" target="_blank"><img src="ig.png" class="icon3"></a>
-                <a href="https://www.instagram.com/illhom.e" target="_blank">
-                    <h5>Ig :@illhom.e </h5>
-                </a>
-            </div>
-            <div class="tele">
-                <a href="https://t.me/Kzpubg" target="_blank"><img src="tele.png" class="icon4"></a>
-                <a href="https://t.me/Kzpubg" target="_blank">
-                    <h5>Tele : +6281341296486</h5>
-                </a>
-            </div>
-            <h1> Info Contact : </h1>
-        </div>
-        <div class="leftc3">
-            <form class="form" onsubmit="send()">
-                <h1>CONTACT ME </h1>
-                <p>Hubungi saya kalau anda gabut atau ada proyek</p>
-                <div class="form-input">
-                    <h2>Nama</h2>
-                    <input type="text" placeholder="Masukkan nama" id="sendnama" required autocomplete="off">
-                    <h2>Email</h2>
-                    <input type="email" placeholder="Masukkan email" id="email" required autocomplete="off">
-                    <h2>Pesan</h2>
-                    <input type="text" placeholder="Masukkan Pesan yang ingin di kirim" id="pesan" required >
-                    <input type="submit"   class="input-send" value="Send">
-                    
-                </div>
-            </form>
-        </div>
-        <div class="rightc3"></div>
-    </div>
-    <div>
-        <script src="Script.js"></script>
+    
 </body>
 
 </html>
