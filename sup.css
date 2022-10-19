@@ -1,0 +1,167 @@
+body {
+    font-family: sans-serif;
+    background: rgb(79, 65, 65);
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+h1 {
+    text-align: center;
+    /*ketebalan font*/
+    font-weight: 300;
+}
+.isi-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.tulisan_login {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    top: -30px;
+    position: relative;
+    color: #ffffff;
+    max-height: 20px;
+    margin-bottom: 0;
+}
+
+
+.kotak_login {
+    box-sizing: border-box;
+    width: 350px;
+    /* background: white; */
+    /*meletakkan form ke tengah*/
+    margin: 80px auto;
+    padding: 30px 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    /* opacity: 0.7; */
+}
+
+.form_login:focus{
+    outline: none;
+}
+label {
+    font-size: 11pt;
+}
+
+.form_login {
+    /*membuat lebar form penuh*/
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    color: #ffffff;
+    border-radius: 6px;
+    width: 17vw;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+    
+}
+.form_login:-ms-input-placeholder{
+    color: #0d0d0d;
+}
+.form_login:-moz-placeholder{
+    color: #0d0d0d;
+}
+.form_login::-webkit-input-placeholder{
+    color: #ffffff;
+}
+
+.tombol_login {
+    position: relative;
+    right: -1px;
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 11pt;
+    width: 89%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tombol-cancel {
+    position: relative;
+    text-decoration: none ;
+    top: -15px;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 11pt;
+    border: 2px solid white;
+    max-width: 74%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.kotak-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: -20px;
+
+}
+.kotak-user p{
+    color: #ffffff;
+    margin-bottom: 5px;
+
+}
+
+.kotak-nama{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: -20px;
+}
+.kotak-nama p{
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.kotak-password{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.kotak-password p{
+    color: #ffffff;
+    margin-bottom: 5px;
+
+}
+
+.kotak-password img { 
+    width: 30px;
+    position: relative;
+    top: -10px;
+    right: 5px;
+}
+
+.kotak-user img {
+    width: 30px;
+    position: relative;
+    top: -10px;
+    right: 5px;
+}
+
+.link{
+    color: #ffffff;
+}
+.link a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.link a:hover{
+    color: blue;
+    transition: .4s;
+   
+}
